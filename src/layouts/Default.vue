@@ -4,7 +4,7 @@
       <nav class="navigation">
         <!-- Nav Bar Content -->
         <div class="logo">
-          <h1>Lamers</h1>
+          <g-image src="~/assets/lamers_text_only.svg" />
         </div>
         
         <div class="menu">
@@ -13,6 +13,7 @@
         </div>
         
         <div class="cta">
+          <button>Auftrag erstellen</button>
         </div>
 
       </nav>
@@ -60,7 +61,7 @@ header.header {
   z-index: 9999;
   width: 100%;
   height: 80px;
-  background-color: #f8f8f8;
+  background-color: none;
 }
 
 nav.navigation {
@@ -84,7 +85,7 @@ nav.navigation .menu p{
 }
 
 nav.navigation .cta {
-  flex : 1;
+  flex: 1;
 }
 
 </style>
